@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "start": "node app.js",
+    "server" : "nodemon app.js",
     "dev": "concurrently \"npm start\" \"npm run client\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
